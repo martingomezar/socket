@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body,
+.containerBody {
+  min-height: 100% !important;
+  height: 100%;
+}
+
+.containerBody {
+  background: blue;
+}
+
+.containerBody {
+  display: flex;
+}
+
+.ingresoProducto {
+  display: flex;
+  padding: 5%;
+  width: 25%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #d4e09b;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 1%;
+}
+
+.listContainer {
+  padding: 5%;
+  width: 35%;
+  background-color: #f6f4d2;
+  overflow-y: auto;
+  visibility: visible;
+}
+
+.chatContainer {
+  padding: 5%;
+  width: 45%;
+  background-color: #cbdfbd;
+  overflow-y: auto;
+  visibility: visible;
+}
+
+.chatMessage {
+  padding: 2%;
+}
+
+.chatemail {
+  color: blue;
+  font-weight: bold;
+}
+
+.chatmensaje{
+  color: green;
+  font-style: italic;
+}
+
+.chatfecha{
+  font-size:xx-small;
+}
